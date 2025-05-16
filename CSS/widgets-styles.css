@@ -493,7 +493,7 @@ div.empanel.show {
 }
 
 .cardsCircleIcons-card .nav-button {
-    padding: .5em 0;
+    padding: .5em 0!important;
     width: 100%;
 }
 
