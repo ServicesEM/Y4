@@ -344,8 +344,8 @@
 
 .payment-modal__close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: .5rem;
+    right: 1.25rem;
     background: none;
     border: none;
     font-size: 2em!important;
@@ -463,6 +463,40 @@ div.empanel.show {
     border-bottom-right-radius: 10px;
 }
 
+/*Cards Circle Images - Custom Assets Package*/
+.cardsCircleIcons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.4em;
+    margin: 2em 0;
+}
+
+.cardsCircleIcons-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: var(--box-shadow-ES);
+    height: 100%;
+    border-radius: var(--border-radius-ES);
+    padding: 1.2em;
+    width: 20%;
+    gap: 1em;
+}
+
+.CirclePlaceholder {
+    height: 90px;
+    width: 90px;
+}
+
+.cardsCircleIcons-card .nav-button {
+    padding: .5em 0;
+    width: 100%;
+}
+
 /*Responsive Styles*/
 @media only screen and (max-width: 992px) {
     .container-cards-card,
@@ -496,6 +530,9 @@ div.empanel.show {
     }
 
     .nav-button {
+        width: 100%;
+    }
+    .cardsCircleIcons-card {
         width: 100%;
     }
 }
