@@ -170,6 +170,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    max-height: 550px;
 }
 
 .containerContent:hover .containerContent-text-img {
@@ -195,6 +196,11 @@
     justify-content: center;
     width: 50%;
     text-align: justify!important;
+}
+
+.contentBlockColor-textColor a.a-bold {
+    color: white!important;
+    text-decoration: underline!important;
 }
 
 .contentBlockColor-text {
