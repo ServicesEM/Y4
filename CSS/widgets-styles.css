@@ -198,6 +198,10 @@
     text-align: justify!important;
 }
 
+.contentBlockColor-text * {
+    text-align: left;
+}
+
 .contentBlockColor-textColor a.a-bold {
     color: white!important;
     text-decoration: underline!important;
